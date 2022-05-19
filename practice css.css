@@ -7,12 +7,20 @@ body :hover{
 }
 .cointainer{
     color: white;
-    margin-left: 15px;
     
 }
-@media only screen and (max-width:768px) {
+
+.me:hover{
+    color: turquoise;
+    font-size: 25px;
+}
+@media only screen and (max-width:800px) {
     #bottom{order: 2;}
-    #top{order: 1;}
+    #top{order: 1;
+        width: auto;
+        height: 50%;
+    }
+    
 }
 h2{
     font-size: 25px;
@@ -26,8 +34,8 @@ strong{
 }
 
 #top{
-    width: auto;
-    height: 70%;
+    max-width: auto;
+    height: 350px;
     background: hsl(277, 64%, 61%);
     overflow: hidden;
 }
